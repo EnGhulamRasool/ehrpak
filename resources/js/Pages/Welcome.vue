@@ -106,11 +106,11 @@
 
         <div class="max-w-5xl mx-auto space-y-6 text-gray-700 leading-relaxed">
           <p class="text-lg">
-            <span class="font-semibold text-[#013220]">AINIT Consultancy Services</span> is one of the most renowned and trusted immigration & study abroad consultants in Pakistan. We have a successful track record of more than a decade where we offer excellent education consultancy services in Student Visa and immigration consultancy services in Skilled visa, Business Migration visa, Family visa, Spouse visa, Visitor visa, and corporate entrepreneur work visa.
+            <span class="font-semibold text-[#013220]">eHRPakConsultant Consultancy Services</span> is one of the most renowned and trusted immigration & study abroad consultants in Pakistan. We have a successful track record of more than a decade where we offer excellent education consultancy services in Student Visa and immigration consultancy services in Skilled visa, Business Migration visa, Family visa, Spouse visa, Visitor visa, and corporate entrepreneur work visa.
           </p>
 
           <p class="text-lg">
-            We have offices in <span class="font-semibold text-[#013220]">Karachi, & Lahore</span>. Where we offer Study Abroad services in multiple countries and Immigration services in countries like Australia, Canada, New Zealand, Germany and UK. We provide competitive, up-to-date, honest visa information and advice to clients who are interested to migrate abroad.
+            We have offices in <span class="font-semibold text-[#013220]">Islamabad</span>. Where we offer Study Abroad services in multiple countries and Immigration services in countries like Australia, Canada, New Zealand, Germany and UK. We provide competitive, up-to-date, honest visa information and advice to clients who are interested to migrate abroad.
           </p>
 
           <p class="text-lg">
@@ -418,6 +418,310 @@
           <Link :href="route('candidate.register')" class="inline-block bg-[#C5A247] text-white px-10 py-4 rounded-lg text-lg font-semibold hover:bg-[#B39140] transition-all transform hover:scale-105 shadow-lg">
             Get Free Consultation
           </Link>
+        </div>
+      </div>
+    </section>
+<!-- Free Online Visa Assessment Section -->
+    <section class="py-20 bg-[#013220]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <!-- Left Content -->
+          <div class="text-white">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">
+              Free Online Visa Assessment
+            </h2>
+            <p class="text-lg text-gray-100 mb-8 leading-relaxed">
+              Contact us today by filling out our free online visa assessment and we will contact you.
+            </p>
+
+            <!-- Contact Information -->
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0">
+                  <svg class="w-8 h-8 text-[#C5A247]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-[#C5A247] mb-2">+923215331274</h3>
+                  <p class="text-gray-300">Mon, Tue, Wed, Thu, Sat, Sun: 9:00am - 5:00pm</p>
+                  <p class="text-gray-300">Fri: CLOSED</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Content - Assessment Form -->
+          <div class="bg-white rounded-2xl shadow-2xl p-8">
+            <h3 class="text-2xl font-bold text-[#013220] mb-6 text-center">
+              Enter Your Information
+            </h3>
+            <form class="space-y-5">
+              <div>
+                <input
+
+                  type="text"
+                  placeholder="Your Name"
+                  class="w-full px-4 py-3 bg-gray-100 border-0 rounded-lg focus:ring-2 focus:ring-[#C5A247] focus:bg-white outline-none transition"
+                  required
+                />
+              </div>
+              <div>
+                <input
+
+                  type="email"
+                  placeholder="Email"
+                  class="w-full px-4 py-3 bg-gray-100 border-0 rounded-lg focus:ring-2 focus:ring-[#C5A247] focus:bg-white outline-none transition"
+                  required
+                />
+              </div>
+              <div>
+                <input
+
+                  type="tel"
+                  placeholder="Mobile No"
+                  class="w-full px-4 py-3 bg-gray-100 border-0 rounded-lg focus:ring-2 focus:ring-[#C5A247] focus:bg-white outline-none transition"
+                  required
+                />
+              </div>
+              <div>
+                <select
+
+                  class="w-full px-4 py-3 bg-gray-100 border-0 rounded-lg focus:ring-2 focus:ring-[#C5A247] focus:bg-white outline-none transition text-gray-700"
+                  required
+                >
+                  <option value="">Select Visa</option>
+                  <option value="australia-skilled">Australia - Skilled Work Visa</option>
+                  <option value="canada-skilled">Canada - Skilled Work Visa</option>
+                  <option value="uk-innovator">UK - Innovator & Global Talent Visa</option>
+                  <option value="student">Student Visa</option>
+                  <option value="family">Partner & Family Visas</option>
+                  <option value="visit">Visit Visas</option>
+                </select>
+              </div>
+              <div>
+                <textarea
+
+                  placeholder="Message"
+                  rows="4"
+                  class="w-full px-4 py-3 bg-gray-100 border-0 rounded-lg focus:ring-2 focus:ring-[#C5A247] focus:bg-white outline-none transition resize-none"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-[#FF5722] text-white py-4 rounded-lg font-bold text-lg hover:bg-[#E64A19] transition-all transform hover:scale-105 shadow-lg uppercase"
+              >
+                Book My Free Assessment
+              </button>
+              <p class="text-sm text-gray-500 text-center">
+                We will not spam your email.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- What Our Clients Say Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+          <div class="inline-block bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            📰 Success Stories
+          </div>
+          <h2 class="text-4xl md:text-5xl font-bold text-[#013220] mb-4">
+            What Our Clients Say
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            Real experiences from thousands of satisfied clients who achieved their European dreams with our help.
+          </p>
+        </div>
+
+        <!-- Testimonials Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Testimonial 1: Ahmad Hassan -->
+          <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <div class="flex items-start justify-between mb-4">
+              <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  AH
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900">Ahmad Hassan</h4>
+                  <p class="text-sm text-gray-500">@ahmad_hassan • 2 weeks ago</p>
+                </div>
+              </div>
+              <div class="flex text-yellow-400 text-sm">
+                ⭐⭐⭐⭐⭐
+              </div>
+            </div>
+            <p class="text-gray-700 leading-relaxed mb-4">
+              "Just got my German tourist visa approved! 🇩🇪 The eHRPakConsultant team made everything so simple. From document preparation to embassy appointment - they handled it all professionally. Highly recommended! 👍"
+            </p>
+            <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+              <div class="flex items-center space-x-4 text-sm text-gray-500">
+                <span class="flex items-center">❤️ 47</span>
+                <span class="flex items-center">💬 12</span>
+                <span class="flex items-center">🔗 8</span>
+              </div>
+              <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full">Tourist Visa</span>
+            </div>
+          </div>
+
+          <!-- Testimonial 2: Sara Fatima -->
+          <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <div class="flex items-start justify-between mb-4">
+              <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  SF
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900">Sara Fatima</h4>
+                  <p class="text-sm text-gray-500">@sara_fatima • 1 month ago</p>
+                </div>
+              </div>
+              <div class="flex text-yellow-400 text-sm">
+                ⭐⭐⭐⭐⭐
+              </div>
+            </div>
+            <p class="text-gray-700 leading-relaxed mb-4">
+              "Exceptional service! Got my Netherlands business visa in just 10 days. 🇳🇱 The team guided me through every step and even helped with interview preparation. Worth every penny! 🇵🇰 ✈️"
+            </p>
+            <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+              <div class="flex items-center space-x-4 text-sm text-gray-500">
+                <span class="flex items-center">❤️ 63</span>
+                <span class="flex items-center">💬 18</span>
+                <span class="flex items-center">🔗 15</span>
+              </div>
+              <span class="text-xs font-semibold text-green-600 bg-green-50 px-3 py-1 rounded-full">Business Visa</span>
+            </div>
+          </div>
+
+          <!-- Testimonial 3: Muhammad Kashif -->
+          <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <div class="flex items-start justify-between mb-4">
+              <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  MK
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900">Muhammad Kashif</h4>
+                  <p class="text-sm text-gray-500">@m_kashif • 3 weeks ago</p>
+                </div>
+              </div>
+              <div class="flex text-yellow-400 text-sm">
+                ⭐⭐⭐⭐⭐
+              </div>
+            </div>
+            <p class="text-gray-700 leading-relaxed mb-4">
+              "Family reunion visa approved for France! 🇫🇷 After months of stress, eHRPakConsultant made it happen in 2 weeks. Professional, reliable, and honest. My family is finally together! ❤️ 👨‍👩‍👧‍👦"
+            </p>
+            <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+              <div class="flex items-center space-x-4 text-sm text-gray-500">
+                <span class="flex items-center">❤️ 89</span>
+                <span class="flex items-center">💬 25</span>
+                <span class="flex items-center">🔗 22</span>
+              </div>
+              <span class="text-xs font-semibold text-pink-600 bg-pink-50 px-3 py-1 rounded-full">Family Visa</span>
+            </div>
+          </div>
+
+          <!-- Testimonial 4: Zara Ahmed -->
+          <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <div class="flex items-start justify-between mb-4">
+              <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  ZA
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900">Zara Ahmed</h4>
+                  <p class="text-sm text-gray-500">@zara_ahmed • 1 week ago</p>
+                </div>
+              </div>
+              <div class="flex text-yellow-400 text-sm">
+                ⭐⭐⭐⭐⭐
+              </div>
+            </div>
+            <p class="text-gray-700 leading-relaxed mb-4">
+              "Study visa for Italy approved! 🇮🇹 The approval calculator was spot on - 94% chance and it came through! Thank you eHRPakConsultant for making my educational dreams come true! 📚 🎓"
+            </p>
+            <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+              <div class="flex items-center space-x-4 text-sm text-gray-500">
+                <span class="flex items-center">❤️ 34</span>
+                <span class="flex items-center">💬 9</span>
+                <span class="flex items-center">🔗 6</span>
+              </div>
+              <span class="text-xs font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full">Student Visa</span>
+            </div>
+          </div>
+
+          <!-- Testimonial 5: Rizwan Ali -->
+          <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <div class="flex items-start justify-between mb-4">
+              <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  RA
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900">Rizwan Ali</h4>
+                  <p class="text-sm text-gray-500">@rizwan_ali • 4 days ago</p>
+                </div>
+              </div>
+              <div class="flex text-yellow-400 text-sm">
+                ⭐⭐⭐⭐⭐
+              </div>
+            </div>
+            <p class="text-gray-700 leading-relaxed mb-4">
+              "Spain tourist visa success! 🇪🇸 Third time applying and finally got it thanks to eHRPakConsultant's expert guidance. They knew exactly what was missing in my previous applications. Muchas gracias! 🙏"
+            </p>
+            <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+              <div class="flex items-center space-x-4 text-sm text-gray-500">
+                <span class="flex items-center">❤️ 52</span>
+                <span class="flex items-center">💬 14</span>
+                <span class="flex items-center">🔗 11</span>
+              </div>
+              <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full">Tourist Visa</span>
+            </div>
+          </div>
+
+          <!-- Testimonial 6: Fatima Khan -->
+          <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <div class="flex items-start justify-between mb-4">
+              <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  FK
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900">Fatima Khan</h4>
+                  <p class="text-sm text-gray-500">@fatima_khan • 2 days ago</p>
+                </div>
+              </div>
+              <div class="flex text-yellow-400 text-sm">
+                ⭐⭐⭐⭐⭐
+              </div>
+            </div>
+            <p class="text-gray-700 leading-relaxed mb-4">
+              "Switzerland visa approved for honeymoon! 🇨🇭 The team was incredibly supportive and made sure everything was perfect. Now planning the most romantic trip ever! 💍 🏔️"
+            </p>
+            <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+              <div class="flex items-center space-x-4 text-sm text-gray-500">
+                <span class="flex items-center">❤️ 76</span>
+                <span class="flex items-center">💬 21</span>
+                <span class="flex items-center">🔗 18</span>
+              </div>
+              <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full">Tourist Visa</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- View More Button -->
+        <div class="text-center mt-12">
+          <button class="bg-[#013220] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#C5A247] transition-colors duration-300 shadow-lg">
+            View More Success Stories
+          </button>
         </div>
       </div>
     </section>
